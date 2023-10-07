@@ -18,14 +18,14 @@ function isPalindrome(word) {
   Add your pseudocode here
   -should ensure the word input is a string
   -should convert the word input into all lowercase or all uppercase
-  -should reverse the word input and compare to see if the reversed string === original string(word input)
+  -should reverse the word input and compare to see if the reversed string === original lowercase/uppercase string
   -if it is then print true otherwise false
 */
 
 /*
   Add written explanation of your solution here
   -isPalindrome is a function which will receive one argument as a string and check if once the string
-  is reversed, the reversed string is the same as the original string and it is of the same length.
+  is reversed, the reversed string is the same as the original lowercase/uppercase string and it is of the same length.
 */
 
 // You can run `node index.js` to view these console logs
